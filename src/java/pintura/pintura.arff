@@ -1,0 +1,80 @@
+% 7. Attribute Information:
+%    1. dimensão do reparo em m2
+%    2. espessura da tinta em µm (Mícrons)
+%    3. teste de adesão da tinta un.
+%    4. class:
+%       -- Microreparo
+%       -- Reparo
+%       -- Repintura
+%       -- Rejateamento
+% 
+%
+
+@RELATION pintura
+
+@ATTRIBUTE reparo 	NUMERIC
+@ATTRIBUTE espessura 	NUMERIC
+@ATTRIBUTE adesao 	NUMERIC
+@ATTRIBUTE class	{Microreparo,Reparo,Repintura,Rejateamento}
+
+@DATA
+0.5,305,2.6,Microreparo
+0.8,302,3.3,Microreparo
+0.5,301,3.3,Microreparo
+0.6,306,2.6,Microreparo
+0.9,309,2.6,Microreparo
+0.4,304,3.3,Microreparo
+0.5,301,3.3,Microreparo
+0.6,307,3.3,Microreparo
+0.4,304,2.6,Microreparo
+0.8,400,2.2,Microreparo
+0.6,309,2.6,Microreparo
+0.5,305,2.6,Microreparo
+0.9,308,2.6,Microreparo
+1.0,304,1.3,Rejateamento
+0.7,404,1.3,Rejateamento
+2.3,304,1.4,Rejateamento
+2.7,401,3.9,Rejateamento
+6.5,402,3.1,Rejateamento
+9.0,301,1.3,Rejateamento
+8.5,203,1.3,Rejateamento
+5.1,302,1.0,Rejateamento
+0.6,300,2.6,Reparo
+0.5,209,3.1,Reparo
+0.8,300,3.3,Reparo
+1.0,300,2.6,Reparo
+5.4,304,2.2,Reparo
+3.2,304,2.6,Reparo
+3.1,300,3.1,Reparo
+2.8,304,2.2,Reparo
+3.3,302,3.2,Reparo
+2.4,301,3.8,Reparo
+2.9,304,3.7,Reparo
+6.7,301,3.3,Reparo
+7.8,302,2.2,Reparo
+8.5,300,3.1,Reparo
+8.7,305,2.2,Reparo
+7.2,302,3.7,Reparo
+9.4,305,3.9,Reparo
+8.5,300,2.7,Reparo
+9.1,302,3.7,Reparo
+2.8,303,2.7,Reparo
+9.6,203,2.6,Reparo
+9.6,208,2.8,Reparo
+1.0,308,1.9,Repintura
+5.1,307,2.0,Repintura
+4.6,306,1.9,Repintura
+5.1,303,1.7,Repintura
+2.8,305,2.0,Repintura
+8.9,305,1.7,Repintura
+9.8,304,2.0,Repintura
+8.5,308,2.0,Repintura
+8.4,308,1.9,Repintura
+2.8,307,1.9,Repintura
+8.6,302,1.8,Repintura
+8.7,301,1.9,Repintura
+10.8,208,3.1,Repintura
+15.2,303,3.1,Repintura
+16.1,204,2.6,Repintura
+10.5,209,2.1,Repintura
+12.6,207,2.6,Repintura
